@@ -1,0 +1,23 @@
+// card.component.scss
+
+.card {
+	/*background-color: var(--white);
+	border-radius: 4px;*/
+	
+	&-img {
+		&_img {
+			border-radius: 4px 4px 4px 4px;
+		}
+	}/*
+	&-info {
+		padding: 24px 16px;
+		
+		&_precio {
+			font-weight: bold;
+		}
+	}
+
+	/* Temp */
+	max-width: 400px;
+	margin: 50px auto;
+}

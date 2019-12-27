@@ -1,0 +1,153 @@
+
+
+/*inicio stylos del header*/
+.header {
+  
+   /* box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+    /*position: fixed;*/
+    display: inline-block;
+    width: 100%;
+    z-index: 3;
+     height: 65px;
+     background-color:white;
+     text-decoration: none; box-sizing: border-box;
+     /* Opción 1 
+     display: flex;
+     justify-content: center;
+     align-items: center;*/
+     position: relative;
+     /*max-width: 1200px;
+     margin: 0;
+     padding: 0;*/
+    
+     /*border-radius: 4px;
+     box-shadow: 0 2px 5px rgba(0,0,0,0.8);
+  }
+  a.logo {
+    /*display: block;
+    float: left;*/
+    /*padding: 0;*/
+  } 
+
+  .header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: #fff;
+  }
+  
+  .header li a {
+    display: block;
+    padding: 10px 10px;/*
+    border-right: 1px solid #f4f4f4;*/
+    text-decoration: none;
+  }
+  
+  .header li a:hover,
+  .header .menu-btn:hover {
+    background-color: orange;
+    color: white;
+  }
+  
+  
+  
+  /* menu */
+  
+  .header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+  }
+  
+  /* menu icon */
+  
+  .header .menu-icon {
+    cursor: pointer;
+    float: right;
+    padding: 20px 20px;
+    position: relative;
+    user-select: none;
+  }
+  
+  .header .menu-icon .nav-icon {
+    background: #333;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 18px;
+    margin-top: 10px;
+  }
+  
+  .header .menu-icon .nav-icon:before,
+  .header .menu-icon .nav-icon:after {
+    background: #333;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+  }
+  
+  .header .menu-icon .nav-icon:before {
+    top: 5px;
+  }
+  
+  .header .menu-icon .nav-icon:after {
+    top: -5px;
+  }
+  
+  /* menu ham animacion x */
+  
+  .header .menu-btn {
+    display: none;
+  }
+  
+  .header .menu-btn:checked ~ .menu {
+    max-height: 250px;
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .nav-icon {
+    background: transparent;
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .nav-icon:before {
+    transform: rotate(-45deg);
+    top:0;
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .nav-icon:after {
+    transform: rotate(45deg);
+    top:0;
+  }
+  
+  
+  
+  @media (min-width: 900px) {
+    .header li {
+      float: left;
+    }
+
+    /*centrado de nav en desktop*/
+    .header li a {
+      padding: 23px;
+    }
+    .header .menu {
+      clear: none;
+      float: right;
+      max-height: none;
+    }
+    .header .menu-icon {
+      display: none;
+    }
+  }
+ 
+  
+nav {
+    float: right;
+}
+.clearfix {
+    clear: both;
+}

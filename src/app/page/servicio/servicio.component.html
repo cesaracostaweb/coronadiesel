@@ -1,0 +1,23 @@
+
+<main class="main"><h1>Reparacion y puesta a punto</h1>
+    <h2>CONTAMOS UN BANCO DE PRUEBA DIESEL</h2>
+<p class="parrafo">Todas nuestras reparaciones se entregan rigurosamente testeadas</p>
+<img class="bancodiesel" src="../../../assets/img/bancodiesel.jpeg" alt="Banco diesel">
+<br>
+<div class="oscuroAclaro">
+    <h3>Garantia</h3>
+    <p class="parrafo">6 MESES DE GARANTIA A TODOS NUESTROS TRABAJOS.</p><br></div>
+<h2>Nuestros trabajos realizados</h2>
+
+<br>
+
+
+<ul>
+    <li *ngFor="let m of dataArticulos">
+        <h2>{{ m.nombre }}</h2><br>Foto:
+         <img src="{{ m.imagen }}" alt="imagenes de productos">
+    </li>
+</ul>
+
+
+<img src="../../../assets/img/Logo_Mercadopago.jpg" alt="medios de pago"></main>
