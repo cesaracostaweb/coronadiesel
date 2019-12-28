@@ -1,6 +1,7 @@
 .main {
     margin: 20px;
     padding: 20px;
+    text-align: center;
 }
 .oscuroAclaro {
     background: rgba(147,206,222,1);
@@ -13,3 +14,9 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#1c98ba', GradientType=1 );
     
 }
+
+
+.tamaniocuadro {
+    width: 230px; height: 230px; list-style: none;
+}
+
